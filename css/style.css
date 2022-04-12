@@ -2,4 +2,49 @@ html{
     font-family: 'Lora', serif;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Oswald', sans-serif;
+    color: black;
+}
+
+#sidebar{
+    position: fixed;
+    height: 100%;
+    width: 300px;
+    background-color: black;
+    padding-top: 40px;
+}
+
+#sidebar h1{
+    color: #fff;
+    font-size: 32px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+#sidebar a{
+    color: #fff;
+    transition: 0.5s;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#sidebar a:hover{
+    color: #ff9131;
+}
+
+#sidebar li{
+    padding: 20px;
+}
+
+.sidebar-container{
+    position: relative;
+}
+
+.logo{
+    width: 200px;
+    height: 200px;
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
 }
