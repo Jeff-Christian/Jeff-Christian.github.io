@@ -48,3 +48,28 @@ html{
     margin-left: auto;
     margin-right: auto;
 }
+
+/* Sessão de conteudo da página */
+
+.content{
+    position: absolute;
+    left: 300px;
+    width: calc(100% - 300px);
+}
+
+.content h1, .content h2{
+    color: #ff9131;
+    margin-bottom: 30px;
+}
+
+.content h1{
+    font-size: 40px;
+}
+
+.content h2{
+    font-size: 25px;
+}
+
+section{
+    padding-left: 20px;
+}
