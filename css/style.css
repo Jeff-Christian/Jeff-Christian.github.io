@@ -73,3 +73,71 @@ html{
 section{
     padding-left: 20px;
 }
+
+/* Sessão Bem vindo */
+
+#bemvindo{
+    padding-left: 0;
+}
+
+.conteudo-bemvindo{
+    padding-left: 20px;
+}
+
+.banner{
+    height: 500px;
+    background-image: url(../img/banner.png);
+    background-position: center;
+    background-size: cover;
+}
+
+#bemvindo h1{
+    margin-top: 50px;
+}
+
+#bemvindo::after, #sobre::after{
+    content: "";
+    display: block;
+    clear: both;
+    margin-bottom: 100px;
+}
+
+.minibanner{
+    width: 300px;
+    height: 400px;
+    background-image: url(../img/minibanner-bemvindo.jpg);
+    background-position: center;
+    background-size: cover;
+    float: left;
+}
+
+.descricao{
+    position: absolute;
+    left: 350px;
+    padding-right: 30px;
+}
+
+.descricao p{
+    line-height: 2;
+    font-size: 16px;
+    margin-bottom: 30px;
+    margin-left: 25px;
+}
+
+.botao, form input[type=submit]{
+	background-color: black;
+	border-radius:10px;
+	border:1px solid black;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:19px;
+	padding:12px 37px;
+	text-decoration:none;
+    transition: 0.5s;
+    margin-left: 25px;
+}
+
+.botao:hover, form input[type=submit]:hover{
+	background-color: #ff9131;
+}
