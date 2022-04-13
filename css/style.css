@@ -141,3 +141,17 @@ section{
 .botao:hover, form input[type=submit]:hover{
 	background-color: #ff9131;
 }
+
+/* Sessão sobre */
+
+#sobre .minibanner{
+    float: right;
+    margin-right: 50px;
+    background-image: url(../img/minibanner-sobre.jpg);
+}
+
+#sobre .descricao{
+    position: absolute;
+    left: 0;
+    width: calc(100% - 400px);
+}
