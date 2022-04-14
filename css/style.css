@@ -85,7 +85,7 @@ section{
 }
 
 .banner{
-    height: 500px;
+    height: 400px;
     background-image: url(../img/banner.png);
     background-position: center;
     background-size: cover;
@@ -154,4 +154,96 @@ section{
     position: absolute;
     left: 0;
     width: calc(100% - 400px);
+}
+
+/* Sessão das galerias */
+
+.banner-galeria{
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+    height: 200px;
+}
+
+#mangas1, #mangas2, #mangas3{
+    padding-right: 50px;
+    margin-bottom: 50px;
+}
+
+/* imagens da galeria, primeira galeria */
+
+.mangas1-imgs{
+    width: 18.8%; /* porcentagem para chegar proximo dos 100% da página  */
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+}
+
+#img1{
+    background-image: url(../img/img1.jpg);
+    margin-left: 0;
+}
+
+#img2{
+    background-image: url(../img/img2.jpg);
+} 
+
+#img3{
+    background-image: url(../img/img3.jpg);
+}
+
+#img4{
+    background-image: url(../img/img4.jpg);
+}
+
+#img5{
+    background-image: url(../img/img5.jpg);
+    margin-right: 0;
+}
+
+/* imagens da galeria, segunda galeria */
+
+.mangas2-imgs{
+    width: 32.3%; /* porcentagem para chegar proximo dos 100% da página  */
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+}
+
+#img6{
+    background-image: url(../img/img6.jpg);
+    margin-left: 0;
+}
+
+#img7{
+    background-image: url(../img/img7.jpg);
+} 
+
+#img8{
+    background-image: url(../img/img8.jpg);
+    margin-right: 0;
+}
+
+/* imagens da galeria, terceira galeria */
+
+.mangas3-imgs{
+    width: 23.9%; /* porcentagem para chegar proximo dos 100% da página  */
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+}
+
+#img9{
+    background-image: url(../img/img9.jpg);
+    margin-left: 0;
+}
+
+#img10{
+    background-image: url(../img/img10.jpg);
+} 
+
+#img11{
+    background-image: url(../img/img11.jpg);
+}
+
+#img12{
+    background-image: url(../img/img12.jpg);
+    margin-right: 0;
 }
