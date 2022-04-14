@@ -10,15 +10,15 @@ html{
     height: 100%;
     width: 300px;
     background-color: black;
-    padding-top: 40px;
+    padding-top: 30px;
 }
 
 #sidebar h1{
     color: #fff;
-    font-size: 32px;
+    font-size: 30px;
     text-align: center;
     margin-top: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 #sidebar a{
@@ -41,8 +41,8 @@ html{
 }
 
 .logo{
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     display: block;
     position: relative;
     margin-left: auto;
@@ -118,7 +118,7 @@ section{
 }
 
 .descricao p{
-    line-height: 2;
+    line-height: 1;
     font-size: 16px;
     margin-bottom: 30px;
     margin-left: 25px;
