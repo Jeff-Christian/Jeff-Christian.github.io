@@ -33,7 +33,7 @@ html{
 }
 
 #sidebar li{
-    padding: 20px;
+    padding: 17px;
 }
 
 .sidebar-container{
@@ -278,4 +278,17 @@ section{
 
 #form-contato input[type=submit]{
     margin-left: 0;
+}
+
+/* footer */
+
+footer{
+    height: 100px;
+    padding-top: 150px;
+    color: #ff9131;
+}
+
+footer p{
+    text-align: center;
+    font-weight: bold;
 }
